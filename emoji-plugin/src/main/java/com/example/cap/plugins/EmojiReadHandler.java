@@ -9,7 +9,6 @@ import com.sap.cds.services.handler.annotations.ServiceName;
 
 @ServiceName(value = "*", type = ApplicationService.class)
 public class EmojiReadHandler implements EventHandler{
-
     private static final String EMOJI_ANNOTATION_NAME = "@emoji";
     
     @After
