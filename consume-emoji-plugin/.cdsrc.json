@@ -1,2 +1,7 @@
 {
+  "roots": [
+    "db",
+    "srv",
+    "target/cds"
+  ]
 }

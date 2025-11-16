@@ -6,5 +6,11 @@
   "repository": "<Add your repository here>",
   "devDependencies": {
     "@sap/cds-dk": "^9.4.1"
+  },
+  "cds": {
+    "folders": {
+      "db": "db/,target/cds/",
+      "srv": "srv/,target/cds/"
+    }
   }
 }
