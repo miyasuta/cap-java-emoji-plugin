@@ -2,3 +2,6 @@
 # Claude Code
 CLAUDE.md
 .mcp.json
+
+# Build output
+**/target/
