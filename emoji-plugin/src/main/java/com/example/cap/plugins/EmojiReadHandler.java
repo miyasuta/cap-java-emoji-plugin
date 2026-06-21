@@ -16,7 +16,7 @@ public class EmojiReadHandler implements EventHandler{
         CdsDataProcessor.create()
             .addConverter(
                 (path, element, type) -> element.findAnnotation(EMOJI_ANNOTATION_NAME).isPresent(),
-                (path, element, value) -> value + " 🚀"
+                (path, element, value) -> value + " 🎉"
             ).process(context.getResult());
     }
 }
